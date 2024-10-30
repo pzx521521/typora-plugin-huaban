@@ -51,7 +51,7 @@
 ```
 ### 可以直接复制粘贴/拖上来
 
-![output](https://gd-hbimg.huaban.com/4daf131b1bc3197a1f4a5c8e6eb6b0c2d3963f0b5c7c0-2e022K)
+![output](https://gd-hbimg.huaban.com/1c528e76c82479b818d39069980c7a5d1743e96f5797f-8iQEPg_fw240g)
 
 ### 可以输入链接后上传
 
