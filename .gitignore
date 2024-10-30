@@ -1,0 +1,10 @@
+
+.DS_Store
+/.idea
+cookie.json
+config_dev.json
+config_dev.json
+huaban
+go_build_huaban
+MAKEFILE
+/bin

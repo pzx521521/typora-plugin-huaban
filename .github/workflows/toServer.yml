@@ -1,0 +1,35 @@
+name: Go Build and Deploy to server
+
+on:
+  workflow_dispatch:  # 允许手动触发
+  push:
+    branches:
+      - main  # 自动触发的分支
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Set up Go
+        uses: actions/setup-go@v2
+        with:
+          go-version: '1.23'  # 替换为您需要的 Go 版本
+
+      - name: Install dependencies
+        run: go mod tidy  # 如果使用 Go Modules
+
+      - name: Build
+        run: make
+
+      - name: Deploy to server
+        env:
+          SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}  # 在 GitHub Secrets 中添加 SSH 私钥
+        run: |
+          echo "$SSH_PRIVATE_KEY" > private_key.pem
+          chmod 600 private_key.pem
+          scp -i private_key.pem ./bin/main root@web.frpee.com:/home/deploy/  # 根据需要调整路径和用户名
