@@ -1,20 +1,26 @@
 # [花瓣网图片批量上传工具/图床/typora插件](https://github.com/pzx521521/typora-plugin-huaban)
-
+## 参考
 [python版本的](https://github.com/Pingze-github/HuabanBatchUpload)这个太老了 已经不能用了,现在全部是V3接口
 [github](https://github.com/pzx521521/typora-plugin-huaban)
-[api](https://github.com/pzx521521/huabanv3)
-## 功能说明
-这是一个用于向花瓣网批量上传/下载 图片的程序。需要用户名密码
+[huabanv3 api](https://github.com/pzx521521/huabanv3)
+
+## 功能说明  
+这是一个用于向花瓣网批量上传/下载 图片的程序。需要用户名密码  
 + 多线程并发，可以快速上传大量文件
 + 自动传输错误重试
-## 比较
+
+## 比较  
 |          | 跨域 | 网页直接使用 | 不压缩          |
 |----------|---|--------|--------------|
 | bilibili | ✅ | ❌(需要no-referrer)  | ❌(部分压缩机制不知道) |
 | huaban   | ❌ | ✅      | ✅            |
-## 获取可执行版方法
-[github-release](https://github.com/pzx21521/HuabanBatchUpload/releases)
-## `config.json`参数解释
+
+## 获取可执行版方法  
+[github-release](https://github.com/pzx521521/typora-plugin-huaban/releases)
+[Windows](http://app.parap.us.kg/huaban/huaban.exe)
+[Mac](http://app.parap.us.kg/huaban/huaban)
+[Linux](http://app.parap.us.kg/huaban/huaban_linux)
+## `config.json`参数解释  
 ```json
 {
   "name": "your_account",//用户名
@@ -78,15 +84,11 @@
 
 ![upload](https://gd-hbimg.huaban.com/e5c68d00cad1add003e94fbc42426100403f3e6f1187a7-dJC6l9)
 
-
 ### typora免费版下载
 - [Windows](https://typora.io/windows/dev_release.html)
 - [windows x64 国内OSS镜像下载](https://jiali0126.oss-cn-shenzhen.aliyuncs.com/typora/typora-update-x64-1117.exe)
 - [Mac](https://typora.io/dev_release.html)
-- 插件下载
-  [Windows](http://app.parap.us.kg/huaban/huaban.exe)
-  [Mac](http://app.parap.us.kg/huaban/huaban)
-  [Linux](http://app.parap.us.kg/huaban/huaban_linux)
+
 ### MacOS 注意事项
 Macos 平台的都是需要授权该可执行文件的  
 M1芯片的Mac，需要执行以下命令  
