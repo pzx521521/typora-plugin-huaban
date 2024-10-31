@@ -1,8 +1,7 @@
-# [HuabanBatchUpload] golang版本
-花瓣网图片批量上传工具
+# [花瓣网图片批量上传工具/图床/typora插件]()
 [python版本的](https://github.com/Pingze-github/HuabanBatchUpload)这个太老了 已经不能用了,现在全部是V3接口
 ## 功能说明
-这是一个用于向花瓣网批量上传/下载 图片的程序。
+这是一个用于向花瓣网批量上传/下载 图片的程序。需要用户名密码
 + 多线程并发，可以快速上传大量文件
 + 自动传输错误重试
 ## 比较
@@ -81,4 +80,12 @@
 - [Windows](https://typora.io/windows/dev_release.html)
 - [windows x64 国内OSS镜像下载](https://jiali0126.oss-cn-shenzhen.aliyuncs.com/typora/typora-update-x64-1117.exe)
 - [Mac](https://typora.io/dev_release.html)
-
+- 插件下载
+  [Windows](http://app.parap.us.kg/huaban/huaban.exe)
+  [Mac](http://app.parap.us.kg/huaban/huaban)
+  [Linux](http://app.parap.us.kg/huaban/huaban_linux)
+### MacOS 注意事项
+Macos 平台的都是需要授权该可执行文件的  
+M1芯片的Mac，需要执行以下命令  
+chmod a+x ./ 文件名  
+非M1芯片的，设置打开方式为终端打开，尝试打开时会提示无权限，然后去系统偏好设置->通用，点击允许   
