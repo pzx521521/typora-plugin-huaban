@@ -1,5 +1,8 @@
-# [花瓣网图片批量上传工具/图床/typora插件]()
+# [花瓣网图片批量上传工具/图床/typora插件](https://github.com/pzx521521/typora-plugin-huaban)
+
 [python版本的](https://github.com/Pingze-github/HuabanBatchUpload)这个太老了 已经不能用了,现在全部是V3接口
+[github](https://github.com/pzx521521/typora-plugin-huaban)
+[api](https://github.com/pzx521521/huabanv3)
 ## 功能说明
 这是一个用于向花瓣网批量上传/下载 图片的程序。需要用户名密码
 + 多线程并发，可以快速上传大量文件
