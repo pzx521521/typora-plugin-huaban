@@ -1,3 +1,5 @@
+#移步[huabanv3 api](https://github.com/pzx521521/huabanv3),在cmd目录下
+
 # [花瓣网图片批量上传工具/图床/typora插件](https://github.com/pzx521521/typora-plugin-huaban)
 ## 参考
 [python版本的](https://github.com/Pingze-github/HuabanBatchUpload)这个太老了 已经不能用了,现在全部是V3接口
