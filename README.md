@@ -1,4 +1,4 @@
-#移步[huabanv3 api](https://github.com/pzx521521/huabanv3),在cmd目录下
+# 移步[huabanv3 api](https://github.com/pzx521521/huabanv3),在cmd目录下
 
 # [花瓣网图片批量上传工具/图床/typora插件](https://github.com/pzx521521/typora-plugin-huaban)
 ## 参考
